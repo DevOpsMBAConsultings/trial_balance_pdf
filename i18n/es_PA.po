@@ -1,0 +1,305 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* trial_balance_pdf
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-12 00:00:00\n"
+"PO-Revision-Date: 2026-02-12 00:00:00\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_PA\n"
+
+#. module: trial_balance_pdf
+#: model:ir.model,name:trial_balance_pdf.model_trial_balance_report
+msgid "trial balance report"
+msgstr "reporte de balance de comprobación"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields,field_description:trial_balance_pdf.field_trial_balance_report__start_date
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields,field_description:trial_balance_pdf.field_trial_balance_report__start_date
+msgid "Select start date to fetch the trial balance data"
+msgstr "Seleccione la fecha de inicio para obtener los datos del balance de comprobación"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields,field_description:trial_balance_pdf.field_trial_balance_report__end_date
+msgid "End Date"
+msgstr "Fecha de Fin"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields,field_description:trial_balance_pdf.field_trial_balance_report__end_date
+msgid "Select end date to fetch the trial balance data"
+msgstr "Seleccione la fecha de fin para obtener los datos del balance de comprobación"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields,field_description:trial_balance_pdf.field_trial_balance_report__journals_ids
+msgid "Journals"
+msgstr "Diarios"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields,field_description:trial_balance_pdf.field_trial_balance_report__journals_ids
+msgid "Select the journals to added in the trail balance"
+msgstr "Seleccione los diarios para agregar al balance de comprobación"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields,field_description:trial_balance_pdf.field_trial_balance_report__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields,field_description:trial_balance_pdf.field_trial_balance_report__company_id
+msgid "Select the company of the journals"
+msgstr "Seleccione la compañía de los diarios"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields,field_description:trial_balance_pdf.field_trial_balance_report__state
+msgid "State"
+msgstr "Estado"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields,field_description:trial_balance_pdf.field_trial_balance_report__state
+msgid "Select the state of journal entries which we want to report"
+msgstr "Seleccione el estado de las entradas del diario que desea reportar"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields.selection,name:trial_balance_pdf.selection__trial_balance_report__state__posted
+msgid "Posted Entries only"
+msgstr "Solo entradas publicadas"
+
+#. module: trial_balance_pdf
+#: model:ir.model.fields.selection,name:trial_balance_pdf.selection__trial_balance_report__state__draft
+msgid "Include UnPosted Entries"
+msgstr "Incluir entradas no publicadas"
+
+#. module: trial_balance_pdf
+#: model:ir.actions.act_window,name:trial_balance_pdf.trial_balance_report_action
+msgid "Trial Balance Report"
+msgstr "Reporte de Balance de Comprobación"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.ui.view,arch_db:trial_balance_pdf.trial_balance_report_view_form
+msgid "PDF"
+msgstr "PDF"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.ui.view,arch_db:trial_balance_pdf.trial_balance_report_view_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: trial_balance_pdf
+#: model:ir.ui.menu,name:trial_balance_pdf.account_audit_reports
+msgid "Audit Reports"
+msgstr "Reportes de Auditoría"
+
+#. module: trial_balance_pdf
+#: model:ir.ui.menu,name:trial_balance_pdf.account_trial_balance_report
+msgid "Trial Balance"
+msgstr "Balance de Comprobación"
+
+#. module: trial_balance_pdf
+#: model:ir.actions.report,name:trial_balance_pdf.action_report_trial_balance
+msgid "Trial Balance"
+msgstr "Balance de Comprobación"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Start Date :"
+msgstr "Fecha de Inicio:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "End Date :"
+msgstr "Fecha de Fin:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Journals:"
+msgstr "Diarios:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "State:"
+msgstr "Estado:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Trial Balance"
+msgstr "Balance de Comprobación"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "There is no data"
+msgstr "No hay datos"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Account Number"
+msgstr "Número de Cuenta"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Last Month Balance"
+msgstr "Saldo del Mes Anterior"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Current Month Balance"
+msgstr "Saldo del Mes Actual"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Month Overall Balance"
+msgstr "Saldo General del Mes"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Net Balance"
+msgstr "Saldo Neto"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Total"
+msgstr "Total"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "BALANCE DE COMPROBACIÓN"
+msgstr "BALANCE DE COMPROBACIÓN"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "TRIAL BALANCE"
+msgstr "TRIAL BALANCE"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Razón Social:"
+msgstr "Razón Social:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "RUC/NIT:"
+msgstr "RUC/NIT:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Dirección:"
+msgstr "Dirección:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Fecha Inicio:"
+msgstr "Fecha Inicio:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Fecha Fin:"
+msgstr "Fecha Fin:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Estado:"
+msgstr "Estado:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Diarios:"
+msgstr "Diarios:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Nombre de Cuenta"
+msgstr "Nombre de Cuenta"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Preparado por:"
+msgstr "Preparado por:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Fecha de preparación:"
+msgstr "Fecha de preparación:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Preparado conforme a las Normas Internacionales de Información Financiera (NIIF)"
+msgstr "Preparado conforme a las Normas Internacionales de Información Financiera (NIIF)"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Balance Equilibrado"
+msgstr "Balance Equilibrado"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Balance Desequilibrado"
+msgstr "Balance Desequilibrado"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Total Débitos:"
+msgstr "Total Débitos:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "Total Créditos:"
+msgstr "Total Créditos:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "No hay datos disponibles"
+msgstr "No hay datos disponibles"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "ADVERTENCIA:"
+msgstr "ADVERTENCIA:"
+
+#. module: trial_balance_pdf
+#: model_terms:ir.actions.report,arch_db:trial_balance_pdf.report_trial_balance
+msgid "El balance no está equilibrado. Diferencia:"
+msgstr "El balance no está equilibrado. Diferencia:"
+
+#. module: trial_balance_pdf
+#: wizard:trial_balance_report,field:trial_balance_report:account_type
+msgid "Activos"
+msgstr "Activos"
+
+#. module: trial_balance_pdf
+#: wizard:trial_balance_report,field:trial_balance_report:account_type
+msgid "Pasivos"
+msgstr "Pasivos"
+
+#. module: trial_balance_pdf
+#: wizard:trial_balance_report,field:trial_balance_report:account_type
+msgid "Patrimonio"
+msgstr "Patrimonio"
+
+#. module: trial_balance_pdf
+#: wizard:trial_balance_report,field:trial_balance_report:account_type
+msgid "Ingresos"
+msgstr "Ingresos"
+
+#. module: trial_balance_pdf
+#: wizard:trial_balance_report,field:trial_balance_report:account_type
+msgid "Gastos"
+msgstr "Gastos"
+
+#. module: trial_balance_pdf
+#: wizard:trial_balance_report,field:trial_balance_report:account_type
+msgid "Cuentas de Orden"
+msgstr "Cuentas de Orden"
+
+#. module: trial_balance_pdf
+#: wizard:trial_balance_report,field:trial_balance_report:account_type
+msgid "Otros"
+msgstr "Otros"
