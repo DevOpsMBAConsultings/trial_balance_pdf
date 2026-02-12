@@ -138,9 +138,18 @@ class TrialBalanceReport(models.TransientModel):
         self.env.cr.execute(period_query, tuple(period_params))
         period_data = {row['account_id']: row for row in self.env.cr.dictfetchall()}
         
-        # Get all accounts with their codes and names
-        account_domain = [('company_id', '=', self.company_id.id)] if self.company_id else []
-        accounts = self.env['account.account'].search(account_domain)
+        # Get all accounts that appear in our queries
+        # Collect all account IDs from the query results
+        account_ids_in_results = set()
+        account_ids_in_results.update(beginning_data.keys())
+        account_ids_in_results.update(period_data.keys())
+        
+        # Get accounts by their IDs (this avoids the company_id field issue)
+        if account_ids_in_results:
+            accounts = self.env['account.account'].browse(list(account_ids_in_results))
+        else:
+            # If no accounts found, return empty result set
+            accounts = self.env['account.account'].browse([])
         
         # Account type mapping for grouping
         account_type_mapping = {
